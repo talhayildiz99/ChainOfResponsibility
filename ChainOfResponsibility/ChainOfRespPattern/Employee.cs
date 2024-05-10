@@ -5,7 +5,7 @@ namespace ChainOfResponsibility.ChainOfRespPattern
     public abstract class Employee
     {
         protected Employee NextApprover;
-        public void SetApprover(Employee employee)
+        public void SetNextApprover(Employee employee)
         {
             this.NextApprover = employee;
         }

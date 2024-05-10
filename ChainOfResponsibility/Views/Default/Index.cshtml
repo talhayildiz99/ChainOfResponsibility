@@ -1,0 +1,27 @@
+﻿@model CustomerViewModel
+
+@{
+    Layout = null;
+}
+
+
+<link href="~/css/form.css" rel="stylesheet" />
+<link href="~/css/button.css" rel="stylesheet" />
+
+
+<div class="login-box">
+    <h2>Kredi Çek</h2>
+    <form method="post">
+        <div class="user-box">
+            <input type="text" asp-for="Name">
+            <label>Müşteri Adı</label>
+        </div>
+        <div class="user-box">
+            <input type="text" asp-for="Amount">
+            <label>Tutar</label>
+        </div>
+        <button  class='glowing-btn'><span class='glowing-txt'>İ<span class='faulty-letter'>S</span>TEK</span></button>
+    </form>
+</div>
+
+
