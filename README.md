@@ -23,7 +23,7 @@ Eğer kredi, en üst seviyedeki çalışan tarafından dahi onaylanmazsa, müşt
 
 # Chain Of Responsibility
 
-Chain of Responsibility (Sorumluluk Zinciri), bir isteğin birden fazla nesne tarafından işlenebilmesi için kullanılan bir tasarım desenidir. Bu desen, isteği işleyebilecek nesneleri bir zincir olarak düzenler ve isteği zincir üzerindeki nesnelerden biri tarafından işlenene kadar bir sonraki nesneye aktarır.
+Chain of Responsibility, bir isteğin birden fazla nesne tarafından işlenebilmesi için kullanılan bir tasarım desenidir. Bu desen, isteği işleyebilecek nesneleri bir zincir olarak düzenler ve isteği zincir üzerindeki nesnelerden biri tarafından işlenene kadar bir sonraki nesneye aktarır.
 
 Bu yapı, bir isteğin işlenme şeklini değiştirmeyi veya genişletmeyi kolaylaştırır çünkü istekleri işleyecek nesneler arasında gevşek bir bağlantı kurar. Böylece, yeni işleyiciler eklemek veya mevcutları çıkarmak kolaylaşır, ve sistemin bakımı ve genişletilmesi daha esnek hale gelir.
 
