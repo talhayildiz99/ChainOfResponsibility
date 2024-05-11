@@ -1,5 +1,5 @@
 # Chain Of Responsibility Projesi
-MY Academy kapsamında katılmış olduğum eğitimin bir projesi olan Chain Of Responsibility projesini hayata geçirdim. Kredi çekme işlemi özelinde bu Design Pattrn örenğini oluşturdum.
+MY Academy kapsamında katılmış olduğum eğitimin bir projesi olan Chain Of Responsibility projesini hayata geçirdim. Kredi çekme işlemi özelinde bu Design Pattrn örneğini oluşturdum.
 
 
 # Senaryo
